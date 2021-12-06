@@ -16,14 +16,14 @@
 #### Api katmanında iki controller oluşturulmuştur. Bir controller dosya içeriğinin gösterilmesiyle ilgilenirken diğer controller kullanılacak olan verinin değiştirilmesini endpoint ile sağlamaktadır.
 #### WebApiConfig dosyasında her gelen datanın jsona dönüştürülmesi için gerekli konfigürasyon yapılmıştır.
 
-## Proje mimarisinde Mvc, Factory Design Pattern ve Dependency Injection kullanılmıştır.
-## Factory Design Pattern ile veri kümeleri interface ile implement edilmiştir. Projede veri kümeleri birbirine benzediği için her seferinde new operatörü ile bir nesne türetmektense ya da birbirlerinden tamamen bağımsız gibi kodlamaktansa bu desenle tek bir interface ile birleştirilmiştir. Uzantısı farklı olan bir dosya  projeye eklendiği takdirde projede hiç bir değişikliğe gerek duymadan sadece yeni dosyanın okunma işlemi yapılmalıdır.
-## Dependency Injection ile veri aktarımı katmanlar arası tamamen interface kullanılarak yapılmıştır.
+#### Proje mimarisinde Mvc, Factory Design Pattern ve Dependency Injection kullanılmıştır.
+#### Factory Design Pattern ile veri kümeleri interface ile implement edilmiştir. Projede veri kümeleri birbirine benzediği için her seferinde new operatörü ile bir nesne türetmektense ya da birbirlerinden tamamen bağımsız gibi kodlamaktansa bu desenle tek bir interface ile birleştirilmiştir. Uzantısı farklı olan bir dosya  projeye eklendiği takdirde projede hiç bir değişikliğe gerek duymadan sadece yeni dosyanın okunma işlemi yapılmalıdır.
+#### Dependency Injection ile veri aktarımı katmanlar arası tamamen interface kullanılarak yapılmıştır.
 
-## Projede Ninject.WepApi, Microsoft.Data.Odata gibi 3. parti kütüphaneler kullanılmıştır.
-## Ninject.WepApi ile Dependency Injection NinjectWebCommon dosyasında Ninject Ioc Container ile sağlanmıştır.
+#### Projede Ninject.WepApi, Microsoft.Data.Odata gibi 3. parti kütüphaneler kullanılmıştır.
+#### Ninject.WepApi ile Dependency Injection NinjectWebCommon dosyasında Ninject Ioc Container ile sağlanmıştır.
 
-## OData ile dosya içeriğinin filtrelenmesi tek bir metotta bir Attribute ile sağlanmıştır. Gerekli olan filtrelemeler;
+#### OData ile dosya içeriğinin filtrelenmesi tek bir metotta bir Attribute ile sağlanmıştır. Gerekli olan filtrelemeler;
 
 * Şehir adına göre sırala
 * Desc,Asc
