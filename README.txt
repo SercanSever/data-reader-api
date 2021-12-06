@@ -1,8 +1,8 @@
-**.Net framework ile geliştirdiğim API'de 3 katman kullanılmıştır.
+# .Net framework ile geliştirdiğim API'de 3 katman kullanılmıştır.
 
-** Contracts Katmanı
-* Contracts katmanında okunması gereken dosyalar(XML, CSV), dosyaların modelleri ve gerekli dtolar kullanılmıştır.
-* Bu katmanda Factory Design Pattern interfaceleri oluşturulmuştur.
+## Contracts Katmanı
+#### Contracts katmanında okunması gereken dosyalar(XML, CSV), dosyaların modelleri ve gerekli dtolar kullanılmıştır.
+#### Bu katmanda Factory Design Pattern interfaceleri oluşturulmuştur.
 
 ** Service Katmanı
 * Service katmanında dosyalardan gelen datanın(XML, CSV) dönüştürme işlemi yapılmıştır..
